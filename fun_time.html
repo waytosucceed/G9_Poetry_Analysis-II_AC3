@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fun Time</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <link rel="icon" type="image/x-icon" href="Logo_last.png">
+    <style>
+        body {
+           margin: 0;
+        }
+
+       /* Style for the header */
+       .header {
+           position: fixed; /* Fixes the header at the top */
+           top: 0;
+           left: 0;
+           width: 100%;
+           box-shadow: 5px 5px 10px rgb(0, 0, 0);
+           padding-bottom: 10px;
+           background-color: white; /* Ensure the header background is solid */
+           z-index: 1000; /* Ensures the header stays above other content */
+       }
+
+       /* Style for the background section */
+       .backgroun {
+           background-image: url("border.png");
+           background-size: cover; /* Ensures the background image covers the section */
+           background-position: center; /* Center the background image */
+           background-repeat: no-repeat;
+       }
+
+       /* Responsive adjustments */
+       @media (max-width: 768px) {
+           .background-section h1 {
+               font-size: 2rem;
+           }
+
+           .background-section p {
+               font-size: 1rem;
+           }
+       }
+
+       @media (max-width: 576px) {
+           .background-section h1 {
+               font-size: 1.5rem;
+           }
+
+           .background-section p {
+               font-size: 0.875rem;
+           }
+       }
+   </style>
+</head>
+
+<body class="backgroun">
+    <audio id="cheers">
+        <source src="cheers.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="points" src="Points.mp3"></audio>
+    <audio id="fail" src="fail.mp3"></audio>
+    <!-- <div class="header" style="width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0); padding-bottom:10px;">
+        <img src="Logo.png" width="5%" style="float:left; margin-top:25px;" class="img-responsive">
+        <span><img src="header.png" width="30%" height="auto" class="img-responsive"></span>
+    </div> -->
+    <div class="container mt-5" style="font-size: 25px; padding:5% 15% 3% 15%">
+        <h1 class="text-warning fw-5" style="text-align: center;"><u>Proverbs on “Blood”</u></h1>
+        <p></p>
+        <b> “You cannot get blood from a stone”</b>: It is impossible to obtain something (especially money, help, or resources) from someone or something that does not have it to give.
+        <br>
+        <u>Example</u>: The creditors kept demanding payment, but he reminded them that you cannot get blood from a stone.
+        <br><br>
+        <b>“Blood will out”</b>: A person’s true nature, heritage, or family traits will eventually reveal themselves, regardless of attempts to hide them.
+        <br>
+        <u>Example</u>: Despite his modest upbringing, his aristocratic manner proved that blood will out.
+       
+    </div>
+    
+    
+
+    
+    
+</body>
+</html>
